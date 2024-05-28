@@ -1,0 +1,44 @@
+@keyframes pulse {
+    0%{
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.4;
+    }
+}
+
+@keyframes size {
+    50% {
+        width:16px;
+        height: 16px;
+        margin-top: 0px;
+    }
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    margin-top: 90px;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.animation {
+    animation: pulse 1.7s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation-name: pulse, size; /* Kombinera båda animationerna */
+}
+
+.animation-delay-1 {
+    animation-delay: 0s, 0s; /* Inga fördröjningar */
+}
+
+.animation-delay-2 {
+    animation-delay: 0.3s, 0.3s; /* Fördröjning på 0.45s */
+}
+
+.animation-delay-3 {
+    animation-delay: 0.6s, 0.6s; /* Fördröjning på 0.9s */
+}

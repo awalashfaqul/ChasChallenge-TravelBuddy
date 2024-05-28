@@ -1,0 +1,20 @@
+{
+    "prompts": [
+        {
+            "name": "UnderstandingPreferences",
+            "text": "Absolut! För att kunna ge dig de bästa rekommendationerna, skulle du kunna berätta lite mer om dina preferenser? Till exempel, vilken typ av mat föredrar du? Finns det några specifika rätter du är intresserad av?"
+        },
+        {
+            "name": "ClarifyingPreferences",
+            "text": "Baserat på dina preferenser, kan du specificera om du föredrar en specifik typ av restaurangmiljö? Till exempel, föredrar du avslappnade caféer, finare matställen eller kanske något mer unikt och trendigt?"
+        },
+        {
+            "name": "RestaurantRecommendations",
+            "text": "Baserat på dina preferenser rekommenderar jag följande restauranger i [destination]:\nRestaurang 1\nRestaurang 2\nRestaurang 3\nDessa restauranger erbjuder en variation av [matkategorier] och [restaurangmiljöer]. Jag tror att de skulle passa bra för din smak och preferenser. Klicka på länkarna för mer information och för att göra bokningar."
+        },
+        {
+            "name": "Conclusion",
+            "text": "Jag hoppas att dessa rekommendationer är till hjälp! Om du behöver ytterligare assistans eller har några fler frågor, tveka inte att fråga. Jag är här för att hjälpa till med allt du behöver för att göra din resa så trevlig som möjligt."
+        }
+    ]
+}

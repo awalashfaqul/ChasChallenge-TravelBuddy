@@ -1,0 +1,117 @@
+const initialState = {
+  user: {
+    id: null,
+    isLoggedIn: false,
+    profile: {
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      address: {
+        street: "",
+        city: "",
+        state: "",
+        postalCode: "",
+        country: "",
+      },
+      dateOfBirth: null,
+      gender: "",
+      nationality: "",
+      // Other profile information
+    },
+    preferences: {
+      travelPreference: {
+        adventureTravel: false,
+        beachVacations: false,
+        cityBreaks: false,
+        culturalExperiences: false,
+        ecoTourism: false,
+        familyFriendlyDestinations: false,
+        // Other travel preferences
+      },
+      dietaryPreferences: {
+        isVegetarian: false,
+        isVegan: false,
+        hasGlutenAllergy: false,
+        hasNutAllergy: false,
+        hasLactoseIntolerance: false,
+        // Other dietary preferences
+      },
+      // Other user preferences
+      languagesSpoken: [],
+      interests: [],
+      loyaltyPrograms: [],
+    },
+
+    bookings: [],
+
+    trips: [],
+
+    savedItems: {
+      destinations: [],
+      accommodations: [],
+      activities: [],
+      // Other saved items
+      packages: [],
+      events: [],
+    },
+
+    notifications: [],
+  },
+
+
+  search: {
+    destination: "",
+    startDate: null,
+    endDate: null,
+    travelers: {
+      adults: 1,
+      children: 0,
+      infants: 0,
+      seniors: 0,
+      // Other traveler details
+      pets: 0,
+    },
+    filters: {
+      priceRange: {
+        min: 0,
+        max: 1000,
+      },
+      rating: 0,
+      amenities: [],
+      // Other search filters
+      keywords: [],
+      transportationModes: [],
+      themes: [],
+    },
+    results: [],
+    isLoading: false,
+    error: null,
+  },
+
+
+  cart: {
+    items: [],
+    total: 0,
+    isProcessing: false,
+    error: null,
+  },
+
+
+  settings: {
+    theme: "light",
+    language: "en",
+    currency: "USD",
+    timezone: "UTC",
+    unitSystem: "metric",
+    // Other settings
+    notificationsEnabled: true,
+    autoRenewSubscriptions: true,
+    darkModeSchedule: {
+      startTime: "20:00",
+      endTime: "06:00",
+    },
+  },
+
+  
+};

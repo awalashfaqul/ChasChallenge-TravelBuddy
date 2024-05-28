@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-primary;
+    }
+    .botPrompt {
+        @apply max-w-[90%] self-start bg-[#A9CBE3] px-4 py-3 font-normal leading-6 tracking-normal text-primary-foreground;
+        border-radius: 16px 16px 16px 0px; /* Användning av border-radius inline-stil */
+        white-space: pre-line; /* Användning av white-space inline-stil */
+    }
+    .userPrompt {
+        @apply max-w-[90%] gap-2 self-end bg-primary px-4 py-3 font-normal leading-6 tracking-normal text-primary-foreground;
+        border-radius: 16px 16px 0px 16px; /* Användning av border-radius inline-stil */
+        white-space: pre-line; /* Användning av white-space inline-stil */
+    }
+    .loading-message {
+        @apply bg-[#A9CBE3] text-primary-foreground flex h-12 w-28 items-center justify-center gap-1;
+        border-radius: 16px 16px 16px 0px; /* Användning av border-radius inline-stil */
+        white-space: pre-line; /* Användning av white-space inline-stil */
+    }
+}
+
+@layer base {
+    :root {
+        --background: 150 17% 7%;
+        --foreground: 140 10% 88%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 84% 4.9%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+
+        --primary: 162 49% 68%;
+        --primary-foreground: 167 100% 11%;
+
+        --secondary: 157, 20%, 75%;
+        --secondary-foreground: 88 93% 11%;
+
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+
+        --accent: 210 40% 96.1%;
+        --accent-foreground: 222.2 47.4% 11.2%;
+
+        --destructive: 0, 75%, 42%;
+        --destructive-foreground: 0, 0%, 100%;
+
+        --border: 150 4% 56%;
+        --input: 150 4% 56%;
+        --ring: 150 4% 56%;
+
+        --radius: 0.5rem;
+
+        --onBackground: 140 10% 88%;
+        --outline: 150 4% 56%;
+        --onPrimaryContainer: 161 75% 79%;
+        --onPrimary: 167 100% 11%;
+        --primaryContainer: 168 100% 16%;
+        --onTertiaryContainer: 205 100% 89%;
+    }
+
+    .light {
+        --background: 140, 43%, 97%;
+        --foreground: 160, 12%, 10%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 210 40% 98%;
+
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+
+        --primary: 167, 75%, 24%;
+        --primary-foreground: 0, 0%, 100%;
+
+        --secondary: 160, 14%, 34%;
+        --secondary-foreground: 0, 0%, 100%;
+
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+
+        --destructive: 0, 75%, 42%;
+        --destructive-foreground: 0, 0%, 100%;
+
+        --border: 156, 4%, 45%;
+        --input: 156, 4%, 45%;
+        --ring: 156, 4%, 45%;
+
+        --onBackground: 160, 12%, 10%;
+        --outline: 156, 4%, 45%;
+        --onPrimaryContainer: 161 75% 79%;
+        --onPrimary: 0, 0%, 100%;
+        --primaryContainer: 168 100% 16%;
+        --onTertiaryContainer: 205 100% 89%;
+    }
+}
+
+.error-message {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ba1a1a;
+    border: 1px solid #000000;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.error-message::after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ba1a1a;
+}
+/* För WebKit-baserade webbläsare (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Justera bredden om det behövs */
+}
+
+::-webkit-scrollbar-track {
+    background: hsla(0, 0%, 0%, 0.435);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(162, 49%, 68%);
+    border-radius: 10px;
+    border: 3px solid transparent; /* Gör att thumb ser mer separerad ut från track */
+    background-clip: content-box; /* Gör att bakgrunden av thumb inte syns under den transparenta gränsen */
+}
+
+/* För Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(162, 49%, 68%) rgba(0, 0, 0, 0.5);
+}
+
+/* För Internet Explorer och Edge */
+body {
+    -ms-overflow-style: none; /* För IE och Edge */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* För att dölja scrollbaren helt i IE och Edge */
+}

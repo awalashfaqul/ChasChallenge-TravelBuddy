@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\hobor\\ChasAcademy\\Source code\\TravelBuddyNew\\travelbuddy\\backend\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hobor\\ChasAcademy\\Source code\\TravelBuddyNew\\travelbuddy\\backend\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hobor\\ChasAcademy\\Source code\\TravelBuddyNew\\travelbuddy\\backend\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\hobor\\ChasAcademy\\Source code\\TravelBuddyNew\\travelbuddy\\backend\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\hobor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hobor\\ChasAcademy\\Source code\\TravelBuddyNew\\travelbuddy\\backend\\API\\obj\\",
+=======
+    "/Users/luayasaadsson/Desktop/travelbuddy/backend/API/API.csproj": {}
+  },
+  "projects": {
+    "/Users/luayasaadsson/Desktop/travelbuddy/backend/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/luayasaadsson/Desktop/travelbuddy/backend/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Users/luayasaadsson/Desktop/travelbuddy/backend/API/API.csproj",
+        "packagesPath": "/Users/luayasaadsson/.nuget/packages/",
+        "outputPath": "/Users/luayasaadsson/Desktop/travelbuddy/backend/API/obj/",
+>>>>>>> d8fc2eefd1137543c259126aa785b84879ae9568
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luayasaadsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

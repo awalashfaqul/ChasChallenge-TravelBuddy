@@ -1,0 +1,2075 @@
+{
+    "id": "VariableCollectionId:3:2",
+    "name": "material-theme",
+    "modes": { "3:0": "Light", "3:3": "Dark" },
+    "variableIds": [
+        "VariableID:3:3",
+        "VariableID:3:4",
+        "VariableID:3:5",
+        "VariableID:3:6",
+        "VariableID:3:7",
+        "VariableID:3:8",
+        "VariableID:3:9",
+        "VariableID:3:10",
+        "VariableID:3:11",
+        "VariableID:3:12",
+        "VariableID:3:13",
+        "VariableID:3:14",
+        "VariableID:3:15",
+        "VariableID:3:16",
+        "VariableID:3:17",
+        "VariableID:3:18",
+        "VariableID:3:19",
+        "VariableID:3:20",
+        "VariableID:3:21",
+        "VariableID:3:22",
+        "VariableID:3:23",
+        "VariableID:3:24",
+        "VariableID:3:25",
+        "VariableID:3:26",
+        "VariableID:3:27",
+        "VariableID:3:28",
+        "VariableID:3:29",
+        "VariableID:3:30",
+        "VariableID:3:31",
+        "VariableID:3:32",
+        "VariableID:3:33",
+        "VariableID:3:34",
+        "VariableID:3:35",
+        "VariableID:3:36",
+        "VariableID:3:37",
+        "VariableID:3:38",
+        "VariableID:3:39",
+        "VariableID:3:40",
+        "VariableID:3:41",
+        "VariableID:3:42",
+        "VariableID:3:43",
+        "VariableID:3:44",
+        "VariableID:3:45",
+        "VariableID:3:46",
+        "VariableID:3:47",
+        "VariableID:3:48",
+        "VariableID:3:49",
+        "VariableID:3:50",
+        "VariableID:3:51"
+    ],
+    "variables": [
+        {
+            "id": "VariableID:3:3",
+            "name": "Schemes/Primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.05882352963089943,
+                    "g": 0.41960784792900085,
+                    "b": 0.34117648005485535,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.5254902243614197,
+                    "g": 0.8392156958580017,
+                    "b": 0.7450980544090271,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.41960784792900085,
+                        "b": 0.34117648005485535,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.5254902243614197,
+                        "g": 0.8392156958580017,
+                        "b": 0.7450980544090271,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:4",
+            "name": "Schemes/Surface Tint",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.05882352963089943,
+                    "g": 0.41960784792900085,
+                    "b": 0.34117648005485535,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.5254902243614197,
+                    "g": 0.8392156958580017,
+                    "b": 0.7450980544090271,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.41960784792900085,
+                        "b": 0.34117648005485535,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.5254902243614197,
+                        "g": 0.8392156958580017,
+                        "b": 0.7450980544090271,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:5",
+            "name": "Schemes/On Primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                "3:3": {
+                    "r": 0,
+                    "g": 0.21960784494876862,
+                    "b": 0.1725490242242813,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.21960784494876862,
+                        "b": 0.1725490242242813,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:6",
+            "name": "Schemes/Primary Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.6352941393852234,
+                    "g": 0.9490196108818054,
+                    "b": 0.8509804010391235,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0,
+                    "g": 0.3176470696926117,
+                    "b": 0.2549019753932953,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.6352941393852234,
+                        "g": 0.9490196108818054,
+                        "b": 0.8509804010391235,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.3176470696926117,
+                        "b": 0.2549019753932953,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:7",
+            "name": "Schemes/On Primary Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0,
+                    "g": 0.125490203499794,
+                    "b": 0.09803921729326248,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.6352941393852234,
+                    "g": 0.9490196108818054,
+                    "b": 0.8509804010391235,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.125490203499794,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.6352941393852234,
+                        "g": 0.9490196108818054,
+                        "b": 0.8509804010391235,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:8",
+            "name": "Schemes/Secondary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.29411765933036804,
+                    "g": 0.38823530077934265,
+                    "b": 0.35686275362968445,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.6980392336845398,
+                    "g": 0.800000011920929,
+                    "b": 0.7607843279838562,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.29411765933036804,
+                        "g": 0.38823530077934265,
+                        "b": 0.35686275362968445,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.6980392336845398,
+                        "g": 0.800000011920929,
+                        "b": 0.7607843279838562,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:9",
+            "name": "Schemes/On Secondary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                "3:3": {
+                    "r": 0.11372549086809158,
+                    "g": 0.2078431397676468,
+                    "b": 0.18039216101169586,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.11372549086809158,
+                        "g": 0.2078431397676468,
+                        "b": 0.18039216101169586,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:10",
+            "name": "Schemes/Secondary Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.8039215803146362,
+                    "g": 0.9137254953384399,
+                    "b": 0.8705882430076599,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.20392157137393951,
+                    "g": 0.2980392277240753,
+                    "b": 0.2666666805744171,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.8039215803146362,
+                        "g": 0.9137254953384399,
+                        "b": 0.8705882430076599,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.20392157137393951,
+                        "g": 0.2980392277240753,
+                        "b": 0.2666666805744171,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:11",
+            "name": "Schemes/On Secondary Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.027450980618596077,
+                    "g": 0.125490203499794,
+                    "b": 0.09803921729326248,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.8039215803146362,
+                    "g": 0.9137254953384399,
+                    "b": 0.8705882430076599,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.027450980618596077,
+                        "g": 0.125490203499794,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.8039215803146362,
+                        "g": 0.9137254953384399,
+                        "b": 0.8705882430076599,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:12",
+            "name": "Schemes/Tertiary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.2549019753932953,
+                    "g": 0.3843137323856354,
+                    "b": 0.46666666865348816,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.6627451181411743,
+                    "g": 0.7960784435272217,
+                    "b": 0.8901960849761963,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.2549019753932953,
+                        "g": 0.3843137323856354,
+                        "b": 0.46666666865348816,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.6627451181411743,
+                        "g": 0.7960784435272217,
+                        "b": 0.8901960849761963,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:13",
+            "name": "Schemes/On Tertiary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                "3:3": {
+                    "r": 0.054901961237192154,
+                    "g": 0.20392157137393951,
+                    "b": 0.27843138575553894,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.054901961237192154,
+                        "g": 0.20392157137393951,
+                        "b": 0.27843138575553894,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:14",
+            "name": "Schemes/Tertiary Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.772549033164978,
+                    "g": 0.9058823585510254,
+                    "b": 1,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.16078431904315948,
+                    "g": 0.29411765933036804,
+                    "b": 0.3686274588108063,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.772549033164978,
+                        "g": 0.9058823585510254,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.16078431904315948,
+                        "g": 0.29411765933036804,
+                        "b": 0.3686274588108063,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:15",
+            "name": "Schemes/On Tertiary Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0,
+                    "g": 0.11764705926179886,
+                    "b": 0.1764705926179886,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.772549033164978,
+                    "g": 0.9058823585510254,
+                    "b": 1,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.11764705926179886,
+                        "b": 0.1764705926179886,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.772549033164978,
+                        "g": 0.9058823585510254,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:16",
+            "name": "Schemes/Error",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.729411780834198,
+                    "g": 0.10196078568696976,
+                    "b": 0.10196078568696976,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 1,
+                    "g": 0.7058823704719543,
+                    "b": 0.6705882549285889,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.729411780834198,
+                        "g": 0.10196078568696976,
+                        "b": 0.10196078568696976,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.7058823704719543,
+                        "b": 0.6705882549285889,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:17",
+            "name": "Schemes/On Error",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                "3:3": {
+                    "r": 0.4117647111415863,
+                    "g": 0,
+                    "b": 0.019607843831181526,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.4117647111415863,
+                        "g": 0,
+                        "b": 0.019607843831181526,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:18",
+            "name": "Schemes/Error Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 1,
+                    "g": 0.8549019694328308,
+                    "b": 0.8392156958580017,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.5764706134796143,
+                    "g": 0,
+                    "b": 0.03921568766236305,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.8549019694328308,
+                        "b": 0.8392156958580017,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.5764706134796143,
+                        "g": 0,
+                        "b": 0.03921568766236305,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:19",
+            "name": "Schemes/On Error Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.2549019753932953,
+                    "g": 0,
+                    "b": 0.007843137718737125,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 1,
+                    "g": 0.8549019694328308,
+                    "b": 0.8392156958580017,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.2549019753932953,
+                        "g": 0,
+                        "b": 0.007843137718737125,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 1,
+                        "g": 0.8549019694328308,
+                        "b": 0.8392156958580017,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:20",
+            "name": "Schemes/Background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9843137264251709,
+                    "b": 0.9686274528503418,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.05882352963089943,
+                    "g": 0.08235294371843338,
+                    "b": 0.07058823853731155,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.9607843160629272,
+                        "g": 0.9843137264251709,
+                        "b": 0.9686274528503418,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.08235294371843338,
+                        "b": 0.07058823853731155,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:21",
+            "name": "Schemes/On Background",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.09019608050584793,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.8705882430076599,
+                    "g": 0.8941176533699036,
+                    "b": 0.8784313797950745,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.09019608050584793,
+                        "g": 0.11372549086809158,
+                        "b": 0.10588235408067703,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.8705882430076599,
+                        "g": 0.8941176533699036,
+                        "b": 0.8784313797950745,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:22",
+            "name": "Schemes/Surface",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9843137264251709,
+                    "b": 0.9686274528503418,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.05882352963089943,
+                    "g": 0.08235294371843338,
+                    "b": 0.07058823853731155,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.9607843160629272,
+                        "g": 0.9843137264251709,
+                        "b": 0.9686274528503418,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.08235294371843338,
+                        "b": 0.07058823853731155,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:23",
+            "name": "Schemes/On Surface",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.09019608050584793,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.8705882430076599,
+                    "g": 0.8941176533699036,
+                    "b": 0.8784313797950745,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.09019608050584793,
+                        "g": 0.11372549086809158,
+                        "b": 0.10588235408067703,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.8705882430076599,
+                        "g": 0.8941176533699036,
+                        "b": 0.8784313797950745,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:24",
+            "name": "Schemes/Surface Variant",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.8588235378265381,
+                    "g": 0.8980392217636108,
+                    "b": 0.8745098114013672,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.24705882370471954,
+                    "g": 0.2862745225429535,
+                    "b": 0.2705882489681244,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.8588235378265381,
+                        "g": 0.8980392217636108,
+                        "b": 0.8745098114013672,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.24705882370471954,
+                        "g": 0.2862745225429535,
+                        "b": 0.2705882489681244,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:25",
+            "name": "Schemes/On Surface Variant",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.24705882370471954,
+                    "g": 0.2862745225429535,
+                    "b": 0.2705882489681244,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.7490196228027344,
+                    "g": 0.7882353067398071,
+                    "b": 0.7686274647712708,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.24705882370471954,
+                        "g": 0.2862745225429535,
+                        "b": 0.2705882489681244,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.7490196228027344,
+                        "g": 0.7882353067398071,
+                        "b": 0.7686274647712708,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:26",
+            "name": "Schemes/Outline",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.43529412150382996,
+                    "g": 0.4745098054409027,
+                    "b": 0.4588235318660736,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.5372549295425415,
+                    "g": 0.5764706134796143,
+                    "b": 0.5568627715110779,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.43529412150382996,
+                        "g": 0.4745098054409027,
+                        "b": 0.4588235318660736,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.5372549295425415,
+                        "g": 0.5764706134796143,
+                        "b": 0.5568627715110779,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:27",
+            "name": "Schemes/Outline Variant",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.7490196228027344,
+                    "g": 0.7882353067398071,
+                    "b": 0.7686274647712708,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.24705882370471954,
+                    "g": 0.2862745225429535,
+                    "b": 0.2705882489681244,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.7490196228027344,
+                        "g": 0.7882353067398071,
+                        "b": 0.7686274647712708,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.24705882370471954,
+                        "g": 0.2862745225429535,
+                        "b": 0.2705882489681244,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:28",
+            "name": "Schemes/Shadow",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": { "r": 0, "g": 0, "b": 0, "a": 1 },
+                "3:3": { "r": 0, "g": 0, "b": 0, "a": 1 }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": { "r": 0, "g": 0, "b": 0, "a": 1 },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": { "r": 0, "g": 0, "b": 0, "a": 1 },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:29",
+            "name": "Schemes/Scrim",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": { "r": 0, "g": 0, "b": 0, "a": 1 },
+                "3:3": { "r": 0, "g": 0, "b": 0, "a": 1 }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": { "r": 0, "g": 0, "b": 0, "a": 1 },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": { "r": 0, "g": 0, "b": 0, "a": 1 },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:30",
+            "name": "Schemes/Inverse Surface",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.16862745583057404,
+                    "g": 0.19607843458652496,
+                    "b": 0.18431372940540314,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.8705882430076599,
+                    "g": 0.8941176533699036,
+                    "b": 0.8784313797950745,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.16862745583057404,
+                        "g": 0.19607843458652496,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.8705882430076599,
+                        "g": 0.8941176533699036,
+                        "b": 0.8784313797950745,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:31",
+            "name": "Schemes/Inverse On Surface",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.9254902005195618,
+                    "g": 0.9490196108818054,
+                    "b": 0.9333333373069763,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.16862745583057404,
+                    "g": 0.19607843458652496,
+                    "b": 0.18431372940540314,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.9254902005195618,
+                        "g": 0.9490196108818054,
+                        "b": 0.9333333373069763,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.16862745583057404,
+                        "g": 0.19607843458652496,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:32",
+            "name": "Schemes/Inverse Primary",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.5254902243614197,
+                    "g": 0.8392156958580017,
+                    "b": 0.7450980544090271,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.05882352963089943,
+                    "g": 0.41960784792900085,
+                    "b": 0.34117648005485535,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.5254902243614197,
+                        "g": 0.8392156958580017,
+                        "b": 0.7450980544090271,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.41960784792900085,
+                        "b": 0.34117648005485535,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:33",
+            "name": "Schemes/Primary Fixed",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.6352941393852234,
+                    "g": 0.9490196108818054,
+                    "b": 0.8509804010391235,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.6352941393852234,
+                    "g": 0.9490196108818054,
+                    "b": 0.8509804010391235,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.6352941393852234,
+                        "g": 0.9490196108818054,
+                        "b": 0.8509804010391235,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.6352941393852234,
+                        "g": 0.9490196108818054,
+                        "b": 0.8509804010391235,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:34",
+            "name": "Schemes/On Primary Fixed",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0,
+                    "g": 0.125490203499794,
+                    "b": 0.09803921729326248,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0,
+                    "g": 0.125490203499794,
+                    "b": 0.09803921729326248,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.125490203499794,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.125490203499794,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:35",
+            "name": "Schemes/Primary Fixed Dim",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.5254902243614197,
+                    "g": 0.8392156958580017,
+                    "b": 0.7450980544090271,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.5254902243614197,
+                    "g": 0.8392156958580017,
+                    "b": 0.7450980544090271,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.5254902243614197,
+                        "g": 0.8392156958580017,
+                        "b": 0.7450980544090271,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.5254902243614197,
+                        "g": 0.8392156958580017,
+                        "b": 0.7450980544090271,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:36",
+            "name": "Schemes/On Primary Fixed Variant",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0,
+                    "g": 0.3176470696926117,
+                    "b": 0.2549019753932953,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0,
+                    "g": 0.3176470696926117,
+                    "b": 0.2549019753932953,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.3176470696926117,
+                        "b": 0.2549019753932953,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.3176470696926117,
+                        "b": 0.2549019753932953,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:37",
+            "name": "Schemes/Secondary Fixed",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.8039215803146362,
+                    "g": 0.9137254953384399,
+                    "b": 0.8705882430076599,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.8039215803146362,
+                    "g": 0.9137254953384399,
+                    "b": 0.8705882430076599,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.8039215803146362,
+                        "g": 0.9137254953384399,
+                        "b": 0.8705882430076599,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.8039215803146362,
+                        "g": 0.9137254953384399,
+                        "b": 0.8705882430076599,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:38",
+            "name": "Schemes/On Secondary Fixed",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.027450980618596077,
+                    "g": 0.125490203499794,
+                    "b": 0.09803921729326248,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.027450980618596077,
+                    "g": 0.125490203499794,
+                    "b": 0.09803921729326248,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.027450980618596077,
+                        "g": 0.125490203499794,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.027450980618596077,
+                        "g": 0.125490203499794,
+                        "b": 0.09803921729326248,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:39",
+            "name": "Schemes/Secondary Fixed Dim",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.6980392336845398,
+                    "g": 0.800000011920929,
+                    "b": 0.7607843279838562,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.6980392336845398,
+                    "g": 0.800000011920929,
+                    "b": 0.7607843279838562,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.6980392336845398,
+                        "g": 0.800000011920929,
+                        "b": 0.7607843279838562,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.6980392336845398,
+                        "g": 0.800000011920929,
+                        "b": 0.7607843279838562,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:40",
+            "name": "Schemes/On Secondary Fixed Variant",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.20392157137393951,
+                    "g": 0.2980392277240753,
+                    "b": 0.2666666805744171,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.20392157137393951,
+                    "g": 0.2980392277240753,
+                    "b": 0.2666666805744171,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.20392157137393951,
+                        "g": 0.2980392277240753,
+                        "b": 0.2666666805744171,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.20392157137393951,
+                        "g": 0.2980392277240753,
+                        "b": 0.2666666805744171,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:41",
+            "name": "Schemes/Tertiary Fixed",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.772549033164978,
+                    "g": 0.9058823585510254,
+                    "b": 1,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.772549033164978,
+                    "g": 0.9058823585510254,
+                    "b": 1,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.772549033164978,
+                        "g": 0.9058823585510254,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.772549033164978,
+                        "g": 0.9058823585510254,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:42",
+            "name": "Schemes/On Tertiary Fixed",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0,
+                    "g": 0.11764705926179886,
+                    "b": 0.1764705926179886,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0,
+                    "g": 0.11764705926179886,
+                    "b": 0.1764705926179886,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.11764705926179886,
+                        "b": 0.1764705926179886,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0,
+                        "g": 0.11764705926179886,
+                        "b": 0.1764705926179886,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:43",
+            "name": "Schemes/Tertiary Fixed Dim",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.6627451181411743,
+                    "g": 0.7960784435272217,
+                    "b": 0.8901960849761963,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.6627451181411743,
+                    "g": 0.7960784435272217,
+                    "b": 0.8901960849761963,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.6627451181411743,
+                        "g": 0.7960784435272217,
+                        "b": 0.8901960849761963,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.6627451181411743,
+                        "g": 0.7960784435272217,
+                        "b": 0.8901960849761963,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:44",
+            "name": "Schemes/On Tertiary Fixed Variant",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.16078431904315948,
+                    "g": 0.29411765933036804,
+                    "b": 0.3686274588108063,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.16078431904315948,
+                    "g": 0.29411765933036804,
+                    "b": 0.3686274588108063,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.16078431904315948,
+                        "g": 0.29411765933036804,
+                        "b": 0.3686274588108063,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.16078431904315948,
+                        "g": 0.29411765933036804,
+                        "b": 0.3686274588108063,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:45",
+            "name": "Schemes/Surface Dim",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.8352941274642944,
+                    "g": 0.8588235378265381,
+                    "b": 0.843137264251709,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.05882352963089943,
+                    "g": 0.08235294371843338,
+                    "b": 0.07058823853731155,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.8352941274642944,
+                        "g": 0.8588235378265381,
+                        "b": 0.843137264251709,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.05882352963089943,
+                        "g": 0.08235294371843338,
+                        "b": 0.07058823853731155,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:46",
+            "name": "Schemes/Surface Bright",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9843137264251709,
+                    "b": 0.9686274528503418,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.20392157137393951,
+                    "g": 0.23137255012989044,
+                    "b": 0.21960784494876862,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.9607843160629272,
+                        "g": 0.9843137264251709,
+                        "b": 0.9686274528503418,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.20392157137393951,
+                        "g": 0.23137255012989044,
+                        "b": 0.21960784494876862,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:47",
+            "name": "Schemes/Surface Container Lowest",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                "3:3": {
+                    "r": 0.03529411926865578,
+                    "g": 0.05882352963089943,
+                    "b": 0.05098039284348488,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.03529411926865578,
+                        "g": 0.05882352963089943,
+                        "b": 0.05098039284348488,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:48",
+            "name": "Schemes/Surface Container Low",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.9372549057006836,
+                    "g": 0.9607843160629272,
+                    "b": 0.9450980424880981,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.09019608050584793,
+                    "g": 0.11372549086809158,
+                    "b": 0.10588235408067703,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.9372549057006836,
+                        "g": 0.9607843160629272,
+                        "b": 0.9450980424880981,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.09019608050584793,
+                        "g": 0.11372549086809158,
+                        "b": 0.10588235408067703,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:49",
+            "name": "Schemes/Surface Container",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.9137254953384399,
+                    "g": 0.9372549057006836,
+                    "b": 0.9215686321258545,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.10588235408067703,
+                    "g": 0.12941177189350128,
+                    "b": 0.12156862765550613,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.9137254953384399,
+                        "g": 0.9372549057006836,
+                        "b": 0.9215686321258545,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.10588235408067703,
+                        "g": 0.12941177189350128,
+                        "b": 0.12156862765550613,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:50",
+            "name": "Schemes/Surface Container High",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.8901960849761963,
+                    "g": 0.9176470637321472,
+                    "b": 0.8980392217636108,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.14509804546833038,
+                    "g": 0.16862745583057404,
+                    "b": 0.16078431904315948,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.8901960849761963,
+                        "g": 0.9176470637321472,
+                        "b": 0.8980392217636108,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.14509804546833038,
+                        "g": 0.16862745583057404,
+                        "b": 0.16078431904315948,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        },
+        {
+            "id": "VariableID:3:51",
+            "name": "Schemes/Surface Container Highest",
+            "description": "",
+            "type": "COLOR",
+            "valuesByMode": {
+                "3:0": {
+                    "r": 0.8705882430076599,
+                    "g": 0.8941176533699036,
+                    "b": 0.8784313797950745,
+                    "a": 1
+                },
+                "3:3": {
+                    "r": 0.1882352977991104,
+                    "g": 0.21176470816135406,
+                    "b": 0.20392157137393951,
+                    "a": 1
+                }
+            },
+            "resolvedValuesByMode": {
+                "3:0": {
+                    "resolvedValue": {
+                        "r": 0.8705882430076599,
+                        "g": 0.8941176533699036,
+                        "b": 0.8784313797950745,
+                        "a": 1
+                    },
+                    "alias": null
+                },
+                "3:3": {
+                    "resolvedValue": {
+                        "r": 0.1882352977991104,
+                        "g": 0.21176470816135406,
+                        "b": 0.20392157137393951,
+                        "a": 1
+                    },
+                    "alias": null
+                }
+            },
+            "scopes": ["ALL_SCOPES"],
+            "hiddenFromPublishing": false,
+            "codeSyntax": {}
+        }
+    ]
+}
